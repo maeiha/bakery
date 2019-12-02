@@ -1,0 +1,358 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #F5EDEB;
+}
+
+ul {
+	margin: 0 auto;
+	padding: 15px 70px;
+	width: 100%;
+	position: sticky;
+	font-family: 'Staatliches', cursive;
+	text-align: left;
+	size:30px;
+	color: #EC376E;
+	box-sizing: border-box;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: inline-block;
+	text-align: right;
+	padding: 14px 16px;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFBBC6;
+}
+
+li a:hover:not(.active) {
+	color: #FFBBC6;
+	text-shadow: 2px 2px 2px #F385A8;
+}
+
+.active {
+	text-shadow: 2px 2px 2px #F385A8;
+}
+
+a {
+	color: #EC376E;
+	text-decoration: none;
+}
+
+.anim {
+	animation: wb 2s ease-in-out infinite;
+	}
+
+@keyframes wb {
+  50% {
+	  color: #FD7045;
+	  text-shadow: #F384A5 1px 4px 5px;
+	  }
+ }
+
+@keyframes blink {
+  50% {
+	  color: #F384A5;
+  	}
+
+}
+
+h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 25px;
+	color: #EC376E;
+}
+
+@media screen and (min-width : 993px) {
+	nav .mainlogo img,
+	nav .logoText{
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+}
+
+body, #sidebar h2, .news-text, #price-and-purchase .page-price {
+	color: #333333;
+}
+
+footer.page-footer-noitem {
+	background-color: #eeeeee;
+}
+
+#price-and-purchase .purchaseButton button, #price-and-purchase .purchaseButton a {
+	background:#E53935;
+}
+
+.side-nav .side-nav-arrow a:before, #sidebar #appsItemCategoryTag a:before, #sidebar .webicon-about:before, #sidebar .webicon-contact:before, #sidebar .webicon-privacy:before, #sidebar .webicon-law:before, #sidebar .webicon-link:before, .dolce-pointcolor, .dolce-pointcolor i {
+	color:#fc7045 !important;
+}
+
+#sidebar .item-search-submit, #more a {
+    background-color:#fc7045;
+}
+
+nav a {
+    color:#666666 !important;
+}
+
+a {
+	color:#666666;
+}
+
+a:hover, a:focus, .side-block:hover .side-title-box h1, .index-block:hover .index-title-box h1 {
+  color:#ff6767;
+}
+
+.side-nav li a {
+	color:#666666 !important;
+}
+
+nav a:hover, .side-nav li a:hover, .news-text a:hover, nav ul li a:hover, nav ul li a.active, nav ul li a:hover, nav ul li a.current-menu-item {
+	color:#ff6767 !important;
+}
+
+#shopBlog .blog_title h2 a, #shopBlog .blog_title h2 a:hover, .news-text a, .index-pickup-desc, #freespace a, .related-text {
+	color: #333333 !important;
+}
+
+.index-pickup-desc:hover, #freespace a:hover{
+	color:#ff6767 !important;
+}
+
+@media (max-width: 992px) {
+#header .side-nav li a, #header .side-nav li a:hover {
+	color: #333 !important;
+	}
+	
+.css-bar, .css-bar:before, .css-bar:after {
+	background: #333333;
+	}
+}
+
+#privacy, #law, .illegal-report a, .illegal-report a:hover {
+	color:#333 !important;
+}
+
+#shopBlog .blog_title h2 {
+	border-color:#fc7045;
+}
+
+.dolce_logo_size .logoText, nav .logoText, #shopinfo .logoText {
+	color:#333 !important;
+	color:#333333 !important;
+	font-family:'Vollkorn' , Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif!important;
+}
+
+.sidebar-postage {
+	color: #ff5252;
+	border: #ff5252 dashed 1px;
+}
+
+.boxer {
+ 	cursor: url("https://basefile.s3.amazonaws.com/dolcevivace-shopselect-net/5797499343434/zoom-icon.png"), pointer;
+}
+
+@media screen and (max-width: 600px) {
+.heroheader {
+	margin-top: -70px !important;
+	visibility: visible !important
+	}
+#i-fade{
+	display: none !important
+	}
+}
+
+@media screen and (max-width: 600px) {
+.item {
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 16px
+	}
+.index-label {
+	width: 90% !important;
+	max-width: 90% !important
+	}
+	
+.index-label .label_image {
+	height: 49px !important;
+	width: 49px !important
+	}
+	
+.index-pickup {
+	margin-left: 0;
+	margin-right: 0;
+	}
+	
+#more a {
+	margin: 5px 0
+	}
+	
+.label_image {
+	left: -22px
+	}
+	
+#boxer{
+	z-index: 10200
+	}
+}
+
+#review-apps h2 {
+	border-left: none !important;
+	line-height: normal !important;
+	margin-bottom: 0 !important
+}
+
+#shopDetailPage .preview {
+	position: relative;
+	font-size: 0
+}
+
+#shopDetailPage .preview__content {
+	display: inline-block;
+	max-width: calc(20% - 1px) !important
+}
+
+.item .sale-price, #price-and-purchase .page-sale-price, .item .soldout, #price-and-purchase .page-soldout {
+	color: #E53935
+}
+
+.item .sale-rate, #price-and-purchase .page-sale-rate {
+	color: #E53935;
+	border: solid 1px #E53935
+}
+
+.item .dolce-comingsoon {
+	color: #00C7B6;
+}
+
+#price-and-purchase .dolce-comingsoon {
+	color: #00C7B6;
+}
+
+#price-and-purchase .page-attention .salesPeriod--term, #price-and-purchase .page-attention .salesPeriod--willStart, #price-and-purchase .page-attention .salesPeriod--finish {
+	color: #00C7B6;
+}
+
+.item .dolce-preorder, .preOrder .preOrder__data {
+	color: #000000;
+}
+
+.preOrder .preOrder__label {
+	border: solid 1px #000000;
+	color: #000000;
+}
+
+@media screen and (min-width : 481px) {
+.msg_startButton {
+	bottom: 70px !important;
+	right: 1% !important;
+	}
+}
+
+.tlsBanner {
+	background-color: #F87E7E;
+	color: #fff !important;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99999;
+	width: 100%;
+	display: none;
+}
+
+.tlsBanner__inner {
+	display: flex;
+	align-items: center;
+}
+
+.tlsNotification {
+	color: #fff !important;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+	padding: 8px 0;
+	margin: 0 auto;
+}
+
+.attention_bar {
+	display: block;
+	margin: 0 auto 4px;
+	
+}
+
+.attention {
+	fill: #fff;
+}
+
+.tls_close {
+	border: 0.1em solid #fff;
+	border-radius: 100%;
+	font-size: 13px;
+	position: relative;
+	width: 1.4em;
+	height: 1.4em;
+	margin-right: 8px;
+	z-index: 3;
+}
+
+.tls_close:before {
+	position: absolute;
+	top: 0.2em;
+	left: 0.6em;
+	width: 0.15em;
+	height: 1em;
+	content: "";
+	background-color: #fff;
+	transform: rotate(45deg);
+}
+
+.tls_close:after {
+	position: absolute;
+	top: 0.6em;
+	left: 0.2em;
+	width: 1em;
+	height: 0.15em;
+	content: "";
+	background-color: #fff;
+	transform: rotate(225deg);
+}
+
+.link_icon {
+	fill: #fff;
+}
+
+@media screen and (min-width: 993px) .global-header {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 23%;
+    min-height: 1px;
+    margin: 0;
+}
+
+@media only screen and (min-width: 993px) #sidebar, #sidebar2 {
+    padding: 0 10px;
+}
+
+#sidebar, #sidebar2, #sidebar-thin {
+    padding-left: 0;
+    line-height: 1.4rem;
+}
+
+.marb40 {
+    margin-bottom: 40px;
+}
